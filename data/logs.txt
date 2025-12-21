@@ -1,0 +1,25 @@
+2025-10-28 11:37:40 - Starting GroceryServer on port 5000
+2025-10-28 11:37:47 - Connection from /127.0.0.1
+2025-10-28 11:38:12 - User logged in: alice from /127.0.0.1
+2025-10-28 11:38:38 - Connection from /127.0.0.1
+2025-10-28 11:38:49 - User logged in: admin from /127.0.0.1
+2025-10-28 11:39:56 - Connection from /127.0.0.1
+2025-10-28 11:40:10 - Failed login: tanish from /127.0.0.1
+2025-10-28 11:40:33 - Connection from /127.0.0.1
+2025-10-28 11:40:41 - User logged in: tanish from /127.0.0.1
+2025-10-28 12:27:41 - Admin admin added product P004
+2025-10-28 19:51:16 - Starting GroceryServer on port 5000
+2025-10-28 19:51:46 - [CONNECT] /127.0.0.1
+2025-10-28 19:51:49 - [CONNECT] /127.0.0.1
+2025-10-28 19:54:35 - [AUTH FAIL] tanish from /127.0.0.1
+2025-10-28 19:54:43 - [CONNECT] /127.0.0.1
+2025-10-28 19:54:47 - [AUTH FAIL] tanish from /127.0.0.1
+2025-10-28 19:55:13 - Starting GroceryServer on port 5000
+2025-10-28 19:56:32 - [CONNECT] /127.0.0.1
+2025-10-28 19:56:35 - [CONNECT] /127.0.0.1
+2025-10-28 19:56:42 - [LOGIN] admin from /127.0.0.1
+2025-10-28 19:56:47 - [LOGIN] tanish from /127.0.0.1
+2025-10-28 19:58:00 - [CONFIG] pointsPerRupee set to 10 by admin admin
+2025-10-28 19:59:35 - [ORDER] tanish placed ORD1761661775125 | cash:?151.00 | ptsUsed:10 | ptsEarned:20
+2025-10-28 20:00:31 - [DISCONNECT] admin disconnected.
+2025-10-28 20:00:34 - [DISCONNECT] tanish disconnected.
