@@ -4,24 +4,25 @@
 
 grocery_project/
 │
-├─ src/
-│   ├─ model/
-│   ├─ service/
-│   ├─ user/
-│   ├─ server/
-│   ├─ client/
-│   ├─ util/
-│   └─ Main.java
+├── src/
+│   ├── model/        # Core data models (Product, Order, Basket, etc.)
+│   ├── service/      # Business logic and services
+│   ├── user/         # User hierarchy (User, Admin, Consumer)
+│   ├── server/       # Server-side socket and threading logic
+│   ├── client/       # Client-side socket communication
+│   ├── util/         # Utilities (Logger, CSV handling, helpers)
+│   └── Main.java     # Entry point (if applicable)
 │
-├─ data/
-│   ├─ users.csv
-│   ├─ products.csv
-│   ├─ orders.csv
-│   ├─ stats.csv
-│   ├─ logs.txt
-│   └─ config.properties
+├── data/
+│   ├── users.csv         # User accounts and roles
+│   ├── products.csv      # Inventory data
+│   ├── orders.csv        # Order history
+│   ├── stats.csv         # Sales statistics
+│   ├── logs.txt          # Centralized server logs
+│   └── config.properties # Configuration settings
 │
-└─ README.md
+└── README.md
+
 
 🔧 Technologies & Libraries Used
 
