@@ -9,25 +9,19 @@ Readme:
 A multi-threaded, client–server grocery management system built using core Java, demonstrating strong OOP design, concurrency, and file-based persistence without external frameworks or databases.
 
 📁 Project Structure
-grocery_project/
-│
-├─ src/
-│   ├─ model/        # Core domain models (Product, Basket, Order, Rewards)
-│   ├─ service/      # Business logic (Inventory, Statistics, Discounts)
-│   ├─ user/         # User roles and authentication (Admin, Consumer)
-│   ├─ server/       # Multithreaded server and client handler
-│   ├─ client/       # Command-line client
-│   ├─ util/         # Utilities (Logger, DataStore, Config)
-│   └─ Main.java
-│
-├─ data/
-│   ├─ users.csv
-│   ├─ products.csv
-│   ├─ orders.csv
-│   ├─ stats.csv
-│   └─ logs.txt
-│
-└─ README.md
+
+OS/
+        ├── boot/
+        │   └── bootloader.asm
+        │
+        ├── kernel/
+        │   ├── asm/
+        │   │   └── entry.asm
+        │   ├── kernel.c
+        │   ├── file_system.c
+        │   ├── cli.c
+        │   ├── auth.c
+        │   └── mystdlib.c
 
 ▶ How to Execute
 1. Compile
