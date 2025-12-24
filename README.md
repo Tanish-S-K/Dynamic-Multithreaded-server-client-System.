@@ -10,18 +10,25 @@ A multi-threaded, client–server grocery management system built using core Jav
 
 📁 Project Structure
 
-OS/
-        ├── boot/
-        │   └── bootloader.asm
-        │
-        ├── kernel/
-        │   ├── asm/
-        │   │   └── entry.asm
-        │   ├── kernel.c
-        │   ├── file_system.c
-        │   ├── cli.c
-        │   ├── auth.c
-        │   └── mystdlib.c
+        grocery_project/
+                                │
+                                ├─ src/
+                                │   ├─ model/
+                                │   ├─ service/ 
+                                │   ├─ user/
+                                │   ├─ server/
+                                │   ├─ client/
+                                │   ├─ util/
+                                │   └─ Main.java
+                                │
+                                ├─ data/
+                                │   ├─ users.csv
+                                │   ├─ products.csv
+                                │   ├─ orders.csv
+                                │   ├─ stats.csv
+                                │   └─ logs.txt
+                                │
+                                └─ README.md
 
 ▶ How to Execute
 1. Compile
